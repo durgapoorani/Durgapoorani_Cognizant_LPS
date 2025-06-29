@@ -1,3 +1,5 @@
+SET SERVEROUTPUT ON;
+
 BEGIN
   FOR rec IN (SELECT Name, Balance FROM Customers)
   LOOP
